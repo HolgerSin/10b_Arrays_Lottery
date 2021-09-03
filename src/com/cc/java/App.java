@@ -25,6 +25,7 @@ public class App {
 					isRepeated = false;
 					// 1 to 49
 					randomNumber = rand.nextInt((max - min) + 1) + min;
+					// randomNumber = 22;
 					// check for repeated number against
 					// the filled non-zero elements			
 					for (int k = 0; k <= indexDrawn; k++) 
